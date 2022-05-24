@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1
+/*namespace ConsoleApp1
 {
     class Class4
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             string s, revs = "";
             Console.WriteLine(" Enter string");
@@ -27,3 +27,4 @@ namespace ConsoleApp1
         }
     }
 }
+*/
