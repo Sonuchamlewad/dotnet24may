@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1
+/*namespace ConsoleApp1
 {
     class Class5
     {
-        static void Main()
+        static void Main5()
         {
             /*  int[] arr = new int[100];
               int i, j, num, count = 0;
@@ -39,7 +39,8 @@ namespace ConsoleApp1
 
       }
   }
-            */
+            
+            
 
             int[] myArray = new int[] { 0, 1, 2, 3, 13, 8, 5 };
             int largest = int.MinValue;
@@ -59,3 +60,4 @@ namespace ConsoleApp1
         }
     }
 }
+            */
