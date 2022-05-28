@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1
+/*namespace ConsoleApp1
 {
     class Class6
     {
@@ -62,3 +62,4 @@ namespace ConsoleApp1
         }
     }
 }
+*/
