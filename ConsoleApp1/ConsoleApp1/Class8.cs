@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1
+/*namespace ConsoleApp1
 {
     class Class8
     {
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
             int x = 5, y = 6;
             Console.WriteLine("Before Swapping \na=" + x + "  b=" + y);
@@ -44,4 +44,4 @@ namespace ConsoleApp1
         }
     }
 }
-    
+    */
