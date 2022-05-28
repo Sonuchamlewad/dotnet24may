@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1
+/*namespace ConsoleApp1
 {
     class Class9
     {
-        static void Main(string[]args)
+        static void Main9(string[]args)
         {
             var x = 1;
             //x = "sneha";
@@ -22,3 +22,4 @@ namespace ConsoleApp1
         }
     }
 }
+*/
