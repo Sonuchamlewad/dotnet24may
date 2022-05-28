@@ -10,10 +10,20 @@ namespace ConsoleApp1
     }
     class Employee
     {
-        public string Name;
-        public int id;
-        public string Gender;
-        public int salary;
+        private string Name;
+        private int id;
+        private string Gender;
+        private int salary;
+        private string job;
+
+        public Employee()
+        {
+            job = "Analyst";
+        }
+        ~Employee()
+        {
+
+        }
         public void GetData()
         {
             Console.WriteLine("please enter Employee details");
@@ -33,6 +43,7 @@ namespace ConsoleApp1
             Console.WriteLine(id);
             Console.WriteLine(Gender);
             Console.WriteLine(salary);
+            Console.WriteLine(job);
         }
     }
     class class10
@@ -43,8 +54,8 @@ namespace ConsoleApp1
             // e1.a = 4;
             //Console.WriteLine(e1.a);
             //  Employee e = new Employee();
-            Employee[] Employeelist = new Employee[3];
-            for (int i =0; i < Employeelist.Length; i++)
+            Employee[] Employeelist = new Employee[2];
+            for (int i = 0; i < Employeelist.Length; i++)
             {
                 Employee e = new Employee();
                 e.GetData();
