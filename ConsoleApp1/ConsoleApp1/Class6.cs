@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Class6
     {
-        public static void Main(string[] args)
+        public static void Main6(string[] args)
         {
             int i = 0;
             int j = 0;
