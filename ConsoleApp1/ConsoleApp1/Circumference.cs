@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1
+/*namespace ConsoleApp1
 {
     class propertiesInClass
     {
@@ -26,7 +26,7 @@ namespace ConsoleApp1
     }
     class Circumference
     {
-        public static void Main()
+        public static void Main13()
         {
             propertiesInClass p = new propertiesInClass(2.5);
             Console.WriteLine("radius is " + p.radius);
@@ -34,3 +34,4 @@ namespace ConsoleApp1
         }
     }
 }
+*/
