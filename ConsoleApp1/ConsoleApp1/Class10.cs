@@ -48,7 +48,7 @@ namespace ConsoleApp1
     }
     class class10
     {
-        static void Main(string[] args)
+        static void Main10(string[] args)
         {
             // sample e1 = new sample();
             // e1.a = 4;
