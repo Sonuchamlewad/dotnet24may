@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp2
+/*namespace ConsoleApp2
 {
     /*
       * private constructor
@@ -12,7 +12,7 @@ namespace ConsoleApp2
       * static Constructor
       */
 
-    class SampleClass
+    /*class SampleClass
     {
         private int a;
         private int b;
@@ -52,7 +52,7 @@ namespace ConsoleApp2
     }
     class Class6
     {
-        public static void Main()
+        public static void Main11()
         {
             SampleClass S = new SampleClass();
             S.SetValue(1);
@@ -61,3 +61,4 @@ namespace ConsoleApp2
         }
     }
 }
+*/
