@@ -31,7 +31,7 @@ namespace ConsoleApp3
     }
     class Calculatormulti
     {
-     static void Main(string[] args)
+     static void Main1(string[] args)
         {
             Calculator c1 = new Calculator(2, 2);
             Calculator c2 = new Calculator(3, 3);

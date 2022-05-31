@@ -20,7 +20,7 @@ namespace ConsoleApp3
     }
     class Class4
     {
-        public static void Main5()
+        public static void Main4()
         {
             DerivedClass d = new DerivedClass();
             d.show();
