@@ -1,10 +1,22 @@
-create table Emp(id int, empname varchar(200),gender varchar(10), salary varchar(10), department varchar(10));
-select * from emp;
-insert into Emp values(1,'A','female',20000,20);
-insert into Emp values(2,'B','male',25000,10);
-insert into Emp values(3,'C','female',21000,30);
-insert into Emp values(4,'D','male',22000,40);
-select max(salary) from Emp
-select min(salary) from Emp
-select count(*) from Emp
+create table employe (id int,name varchar(200),departmentid int)
+create table depart(id int,department varchar(20))
+insert into employe values(1,'sneha',1)
+insert into employe values(2,'sangam',2)
+insert into employe values(3,'sneha',1)
+insert into employe values(4,'Rohan',3)
+
+insert into depart values(1,'IT') 
+insert into depart  values(2,'Sales')
+insert into depart values(4,'Admin')
+
+select * from employe
+select * from depart
+
+select emp.name,dep.department from employe as emp inner join depart as dep on emp.departmentid=dep.id
+
+select emp.name,dep.department from employe as emp left join depart as dep on emp.departmentid=dep.id
+
+select emp.name,dep.department from employe as emp right join depart as dep on emp.departmentid=dep.id
+
+select * from employe as emp inner join depart as dep on emp.departmentid=dep.id;
 
