@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp3
+/*namespace ConsoleApp3
 {
     class dog
     {
-        public static void Main(string []args)
+        public static void Main6(string []args)
         {
             Dog dog = new Dog();
             dog.setName(Console.ReadLine());
@@ -35,3 +35,4 @@ namespace ConsoleApp3
         }
     }
 }
+*/
