@@ -6,7 +6,7 @@ namespace ConsoleApp3
 {
     class Class11
     {
-        public static void Main()
+        public static void Main11()
         {
             try
             {
