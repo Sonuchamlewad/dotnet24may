@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace ConsoleApp4.Models
 {
-    public partial class Depart
+    public partial class Tblsample
     {
-        public int? Id { get; set; }
-        public string Department { get; set; }
+        public int Id { get; set; }
+        public string Text { get; set; }
     }
 }

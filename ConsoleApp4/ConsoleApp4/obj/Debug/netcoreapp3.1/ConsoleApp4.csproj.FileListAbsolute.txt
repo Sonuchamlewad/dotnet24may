@@ -54,7 +54,6 @@ C:\Users\91957\OneDrive\Desktop\programs\ConsoleApp4\ConsoleApp4\bin\Debug\netco
 C:\Users\91957\OneDrive\Desktop\programs\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\91957\OneDrive\Desktop\programs\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\91957\OneDrive\Desktop\programs\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\91957\OneDrive\Desktop\programs\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.csproj.AssemblyReference.cache
 C:\Users\91957\OneDrive\Desktop\programs\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\91957\OneDrive\Desktop\programs\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.AssemblyInfoInputs.cache
 C:\Users\91957\OneDrive\Desktop\programs\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp3.1\ConsoleApp4.AssemblyInfo.cs
