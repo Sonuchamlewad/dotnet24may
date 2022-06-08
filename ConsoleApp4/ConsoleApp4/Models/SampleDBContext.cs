@@ -1,52 +1,60 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using ConsoleApp4.Models;
+using System;
+using System.Linq;
 
-#nullable disable
-
-namespace ConsoleApp4.Models
+namespace ConsoleApp4
 {
-    public partial class SampleDBContext : DbContext
+    class Program
     {
-        public SampleDBContext()
+        static void Main(string[] args)
         {
-        }
 
-        public SampleDBContext(DbContextOptions<SampleDBContext> options)
-            : base(options)
-        {
-        }
+            // Insertion
 
-        public virtual DbSet<Tblsample> Tblsamples { get; set; }
+            //Console.WriteLine("Please enter your name");
+            //string name = Console.ReadLine();
+            SampleDBContext db = new SampleDBContext();
+            //Tblsample tblsample = new Tblsample();
+            //tblsample.Text = name;
+            //db.Tblsamples.Add(tblsample);
+            //db.SaveChanges();
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
+
+            //How we can show the values
+            var data = db.Tblsamples;
+
+            Console.WriteLine("Values from database ");
+            foreach (var item in data)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Data Source=LAPTOP-RCN3MKKD;Initial Catalog=SampleDB;Integrated Security=True");
+                Console.WriteLine(item.Id + " | " + item.Text);
+            }
+
+            //How we can delete the value
+            //Console.WriteLine("Pleae enter id of your name which you want to delete");
+            //int DeleteItem = Convert.ToInt32(Console.ReadLine());
+            //var DeleteObject = db.Tblsamples.Where(x => x.Id == DeleteItem).FirstOrDefault();
+            //db.Tblsamples.Remove(DeleteObject);
+            //db.SaveChanges();
+
+            //foreach (var item in data)
+            //{
+            //    Console.WriteLine(item.Id + " | " + item.Text);
+            //}
+            //How we can Update the value
+
+            Console.WriteLine("Pleae enter id of your name which you want to update");
+            int InsertItem = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the new name");
+            var newName = Console.ReadLine();
+            var UpdatteObject = db.Tblsamples.Where(x => x.Id == InsertItem).FirstOrDefault();
+            UpdatteObject.Text = newName;
+            db.Tblsamples.Update(UpdatteObject);
+            db.SaveChanges();
+
+            foreach (var item in data)
+            {
+                Console.WriteLine(item.Id + " | " + item.Text);
             }
         }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
-
-            modelBuilder.Entity<Tblsample>(entity =>
-            {
-                entity.ToTable("tblsample");
-
-                entity.Property(e => e.Id).HasColumnName("id");
-
-                entity.Property(e => e.Text)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("text");
-            });
-
-            OnModelCreatingPartial(modelBuilder);
-        }
-
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }
