@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace WebApplication1.Models
+/*namespace WebApplication1.Models
 {
     public partial class sampleDB1Context : DbContext
     {
@@ -173,3 +173,4 @@ namespace WebApplication1.Models
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }
+*/
